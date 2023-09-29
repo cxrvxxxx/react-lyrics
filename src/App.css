@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+* {
+    text-decoration: none !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+    height: 3em;
+    width: 9em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3em;
+    margin: 0 0.3em 0.3em;
+    font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+.input-lyrics {
+    height: 2em;
+    width: 40em;
+    border-radius: 0.3em;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lyrics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.lyrics {
+    display: flex;
+    flex-direction: column;
+    width: 48em;
+    height: 24em;
+    border: solid 1px black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 1em;
+}
+
+.phrase {
+    margin: 0.1em 0;
+    padding: 0 1em;
+    border-radius: 0.3em;
+}
+
+.red {
+    background-color: red;
+    border: solid 1px darkred;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+    border: solid 1px darkorange;
+    color: black;
+}
+
+.yellow {
+    background-color: yellow;
+    border: solid 1px #F6BE00;
+    color: black;
+}
+
+.blue {
+    background-color: blue;
+    border: solid 1px darkblue;
+    color: white;
 }
