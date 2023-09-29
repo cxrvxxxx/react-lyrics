@@ -39,7 +39,7 @@ function App() {
   }, [id]);
 
   useEffect(() => {
-    if (phrase === "") return;
+    if (phrase === "" || !id) return;
 
     const updatedLyrics = [...lyrics];
 
